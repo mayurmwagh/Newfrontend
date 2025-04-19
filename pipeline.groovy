@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage('pull'){
             steps{
-                git branch: 'main', url: 'git@github.com:mayurmwagh/Newfrontend.git'
+                git branch: 'main', url: 'https://github.com/mayurmwagh/Newfrontend.git'
             }
         }
         stage('build'){
